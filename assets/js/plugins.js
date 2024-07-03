@@ -10,8 +10,8 @@ const swiper = new Swiper(".swiper", {
   slidesPerView: 1,
   spaceBetween: 80,
   // Navigation arrows
-  // navigation: {
-  //   nextEl: ".swiper-button-next",
-  //   prevEl: ".swiper-button-prev",
-  // },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
 });
